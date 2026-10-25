@@ -17,21 +17,6 @@ A responsive single-page portfolio with a dedicated page for each project, built
 
 Next.js (App Router), React, TypeScript, Tailwind CSS, deployed on Vercel.
 
-## Run locally
-
-```bash
-git clone https://github.com/Itmum/<repo-name>.git
-cd <repo-name>
-npm install
-npm run dev
-```
-
-Open http://localhost:3000
-
-## Add a project
-
-Copy one object in the `projects` array in `data/portfolio.ts`, change its values, and put the screenshot in `public/projects/`. The card and its page are generated automatically.
-
 ## Contact
 
 - Email: itmamsadiq22@gmail.com
