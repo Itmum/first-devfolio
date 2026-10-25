@@ -2,7 +2,7 @@
 
 A responsive single-page portfolio with a dedicated page for each project, built with Next.js, TypeScript and Tailwind CSS.
 
-**Live site:** https://your-portfolio-url.vercel.app
+**Live site:** [https://your-portfolio-url.vercel.app](https://first-devfolio.vercel.app/)
 
 ## Features
 
