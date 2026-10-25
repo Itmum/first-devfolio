@@ -1,15 +1,39 @@
-# Itmum Sadiq Rahman: Portfolio
+# Itmum Sadiq Rahman: Developer Portfolio
 
-Next.js (App Router) + TypeScript + Tailwind CSS v4.
+A responsive single-page portfolio with a dedicated page for each project, built with Next.js, TypeScript and Tailwind CSS.
 
-## Run
-    npm install
-    npm run dev      # http://localhost:3000
+**Live site:** https://your-portfolio-url.vercel.app
 
-## Update content
-Everything lives in `data/portfolio.ts`. To add a project, copy one object in `projects`,
-change the text and `slug`, and put the screenshot in `public/projects/` (set `image: "/projects/your-file.png"`).
-A page at `/projects/<slug>` is generated automatically.
+## Features
 
-## Deploy
-Push to GitHub, import the repo on vercel.com, click Deploy.
+- Single-page layout with a glass navbar that blurs on scroll
+- Dynamic project pages at `/projects/[slug]`
+- Dark theme by default, with a light mode toggle
+- Simple animations and hover effects
+- Downloadable CV
+- All content in one file: `data/portfolio.ts`
+
+## Tech stack
+
+Next.js (App Router), React, TypeScript, Tailwind CSS, deployed on Vercel.
+
+## Run locally
+
+```bash
+git clone https://github.com/Itmum/<repo-name>.git
+cd <repo-name>
+npm install
+npm run dev
+```
+
+Open http://localhost:3000
+
+## Add a project
+
+Copy one object in the `projects` array in `data/portfolio.ts`, change its values, and put the screenshot in `public/projects/`. The card and its page are generated automatically.
+
+## Contact
+
+- Email: itmamsadiq22@gmail.com
+- GitHub: https://github.com/Itmum
+- LinkedIn: https://www.linkedin.com/in/itmum
